@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    :root{
+        --primary-color:rgb(130, 165, 42);
+        --custom-width:330px;
+    }
+    .CONTAINER{
+        background-color: beige;
+        border: 2px solid black;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .box{
+        background-color: aqua;
+        width: var(--custom-width)
+        height 330px;
+        border: 1px var(--primary-color);
+        margin: 5px;
+        padding: 5px;
+        /* box-shadow: -10PX 15PX magenta; */
+        /* box-shadow: 10px 15px 50px blue; */
+        /* box-shadow: 10px 15px 5px 60px rgb(189, 189, 198); */
+        /* box-shadow: inset 10px 15px 50px burlywood; */
+        box-shadow: 10px 15px red,15px 20px green;
+    }
+    img{
+        height: 200px;
+        width: 320px;
+    }
+    #head{
+       /* text-shadow: 2px 3px 2px white; */
+      text-shadow: white 12px 2px 1px;
+    }
+</style>
+<body>
+    <div class="CONTAINER">
+        <div class="box">
+            <img src="WIN_20240320_22_20_04_Pro.jpg">
+            <h2 id="head">welcome back</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expejhfmfhtttdcdydtj</p>
+        </div>
+    </div>
+</body>
+</html>
